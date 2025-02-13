@@ -18,7 +18,7 @@ BuildRequires:	perl-ExtUtils-MakeMaker >= 3.5
 BuildRequires:	perl-Module-Build-Using-PkgConfig
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
-#BuildRequires:	rpmbuild(macros) >= 1.745
+BuildRequires:	rpmbuild(macros) >= 1.745
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
